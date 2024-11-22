@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 3px 0 0 0;
+ }
+ 
+ legend {
+    background-color: #009496;
+    color: #FFF;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0.25em;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+ }
+ 
+ fieldset {
+    margin: 0.5em auto;
+    background-color: #F1F1F1;
+    border: solid 1px #CCC;
+    width: 90%;
+ }
+ 
+ #searchBox, #settingsBox, #paintingBox {
+    background-color: #EAEAEA;
+    padding: 1em;
+    margin-bottom: 1em;
+ }
+ 
+ #paintingBox table {
+    width: 100%;
+    border-collapse: collapse;
+ }
+ 
+ #paintingBox th, #paintingBox td {
+    border: 1px solid #CCC;
+    padding: 0.5em;
+    text-align: left;
+ }
+ 
+ #paintingBox th {
+    background-color: #0bbaae;
+    color: #FFF;
+ }
+ 
+ button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #07827a;
+ }
+ 
+ button a {
+    text-decoration: none;
+    color: inherit;
+ }
+ 
+ input[type="text"] {
+    width: 200px;
+    padding: 0.5em;
+ }
+ 
